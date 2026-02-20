@@ -1,0 +1,286 @@
+.projects {
+  z-index: 5;
+  padding-top: 120px;
+}
+
+.projects .headline h2 {
+  line-height: 1;
+  margin-top: 15px;
+  font-size: 360%;
+  padding: 1px 0 4px;
+}
+
+.projects .list {
+  margin-top: 100px;
+}
+
+.projects .list .project {
+  margin: 130px 0px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+.projects .list .project:nth-child(even) {
+  direction: rtl;
+}
+
+.projects .list .project .project-image {
+  width: 50%;
+  box-shadow: 0 5px 70px 30px rgb(0 0 0 / 10%);
+}
+
+.projects .list .project .project-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(15 20 30 / 95%);
+  z-index: 0;
+  transition: 0.5s all 0.3s;
+}
+
+.projects .list .project .project-image:hover::after {
+  width: 100%;
+  transition: 0.5s all 0.3s;
+}
+
+.projects .list .project .project-image-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.projects .list .project-image .project-image-container img {
+  height: 100%;
+  transition: 0.5s all;
+  object-fit: cover;
+  object-position: center 50%;
+}
+
+.projects .list .project2 .project-image .project-image-container img {
+  object-position: 25% 50%;
+}
+
+.projects .list .project6 .project-image .project-image-container img {
+  object-position: center 80%;
+}
+
+.projects .list .project .project-image:hover .project-image-container img {
+  transform: scale(1.03);
+}
+
+.projects .list .project .project-text {
+  padding: 50px 0 0 130px;
+  max-width: 500px;
+  width: 50%;
+  color: var(--blue);
+  z-index: 1;
+}
+
+.projects .list .project:nth-child(even) .project-text {
+  padding: 50px 130px 0 0;
+  direction: ltr;
+}
+
+.projects .list .project .project-text h5 {
+  color: var(--blue);
+}
+
+.projects .list .project .project-text h2 {
+  line-height: 40px;
+  font-size: 160%;
+}
+
+.projects .list .project .project-text p {
+  color: var(--blue);
+  line-height: 25px;
+  padding: 5px 0;
+  font-size: 90%;
+  font-weight: 400;
+}
+
+.projects .list .project .project-text .stack {
+  font-weight: 800;
+}
+
+.projects .list .project .project-text .project-btn {
+  font-size: 80%;
+  text-decoration: none;
+  color: inherit;
+  top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.projects .list .project .project-text .project-btn:hover {
+  color: darkgreen;
+  transition: 0.5s all;
+}
+.projects .list .project .project-text .project-btn span {
+  border-bottom: 1px solid;
+  width: fit-content;
+  line-height: 1.1;
+}
+
+.projects .list .project .project-image .image-number {
+  font-size: 1000%;
+  color: #97efff;
+  font-weight: 800;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  line-height: 0.8;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all;
+  pointer-events: none;
+}
+
+.projects .list .project:nth-child(even) .project-image .image-number {
+  left: unset;
+  right: -30px;
+}
+
+.projects .list .project .project-image:hover .image-number {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.projects .list .project .project-image .visit-demo-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background-color: var(--white);
+  color: var(--blue);
+  border-radius: 4px;
+  font-size: 90%;
+  font-weight: 600;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.projects .list .project .project-image:hover .visit-demo-button {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.projects .list .project .project-image .visit-demo-button .icon-size {
+  transition: transform 0.3s ease;
+}
+
+.projects .list .project .project-image:hover .visit-demo-button .icon-size {
+  transform: translateX(4px);
+}
+
+@media (max-width: 1280px) {
+  .projects .list .project {
+    margin: 100px 0px;
+    height: 400px;
+  }
+  .projects .list .project .project-image {
+    width: 50%;
+  }
+
+  .projects .list .project .project-image .image-number {
+    font-size: 700%;
+  }
+
+  .projects .list .project .project-text {
+    padding: 10px 0 0 50px;
+    width: 50%;
+  }
+
+  .projects .list .project:nth-child(2n) .project-text {
+    padding: 10px 50px 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects .list .project {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects {
+    padding-top: 80px;
+  }
+
+  .projects .headline h2 {
+    font-size: 160%;
+    line-height: 1.2;
+    margin-top: 0;
+  }
+
+  .projects .list {
+    margin: 65px 0px 30px 0px;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .projects .list .project {
+    margin: 0px 0 80px 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects .list .project .project-text {
+    width: 100%;
+    padding: 20px 20px 0px 0;
+  }
+
+  .projects .list .project .project-text h2 {
+    font-size: 140%;
+  }
+
+  .projects .list .project .project-text .stack {
+    font-size: 80%;
+  }
+
+  .projects .list .project .project-text .project-btn {
+    position: unset;
+  }
+
+  .projects .list .project .project-text h5 {
+    padding: 0;
+  }
+
+  .projects .list .project .project-image {
+    width: 100%;
+    box-shadow: 0 5px 50px 10px rgb(0 0 0 / 20%);
+  }
+
+  .projects .list .project-image .project-image-container img {
+    transform: scale(1.03);
+    height: 260px;
+  }
+
+  .projects .list .project2 .project-image .project-image-container img {
+    object-position: 18% 50%;
+  }
+
+  .projects .list .project .project-image .image-number {
+    font-size: 500%;
+    top: -10px;
+    left: -10px;
+  }
+
+  .projects .list .project:nth-child(even) .project-image .image-number {
+    left: unset;
+    right: -10px;
+  }
+}
