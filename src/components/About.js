@@ -245,6 +245,36 @@ const About = () => {
               </div>
             </motion.section>
             <motion.section
+              className="about-certifications"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.3,
+                delay: 2,
+              }}
+            >
+              <div className="wrapper">
+                <h5>Certifications</h5>
+                <ul className="certifications-list">
+                  <li>
+                    <a href="https://www.testdome.com/certificates/3819be7fc3e04ecab73d8f4160515e4e" target="_blank" rel="noopener noreferrer">Python</a>
+                  </li>
+                  <li>
+                    <a href="https://www.testdome.com/certificates/9fd7c202f2234b5ab4344903a2ec75d7" target="_blank" rel="noopener noreferrer">Java</a>
+                  </li>
+                  <li>
+                    <a href="https://www.testdome.com/certificates/e7e0fade34ba498eb85c446db14252c4" target="_blank" rel="noopener noreferrer">SQL</a>
+                  </li>
+                  <li>
+                    <a href="https://www.testdome.com/certificates/7986d5d3bc3a48f88e646716e0903c44" target="_blank" rel="noopener noreferrer">C# & .NET</a>
+                  </li>
+                  <li>
+                    <a href="https://www.testdome.com/certificates/c0d7dbe1080b478385ed99bd2825455e" target="_blank" rel="noopener noreferrer">PHP</a>
+                  </li>
+                </ul>
+              </div>
+            </motion.section>
+            <motion.section
               className="contact"
               initial="hidden"
               whileInView="visible"

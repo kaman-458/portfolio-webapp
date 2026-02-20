@@ -6,6 +6,7 @@ import terraceshopImage from '../images/terrace.jpg';
 import connect4Image from '../images/connect-4.jpg';
 import rockScissorsImage from '../images/rock-scissor.png'
 import grubmarketImage from '../images/grubmarket.png';
+import skileoImage from '../images/skileo.png';
 
 export const projects = [
   {
@@ -18,6 +19,17 @@ export const projects = [
     ],
     link: "https://www.grubmarket.com/",
     page: "/grubmarket",
+  },
+  {
+    id: 11,
+    title: "Skileo",
+    img: skileoImage,
+    stack: "React | Tailwind CSS | Spring Boot",
+    about: [
+      "All-in-one cloud software for employee management, vacation and leave tracking, recruiting, invoicing, and expense management. GDPR compliant, secure, and designed to help companies manage operations effortlessly."
+    ],
+    link: "https://www.skileo.com/",
+    page: "/skileo",
   },
   {
     id: 1,
@@ -46,7 +58,7 @@ export const projects = [
     id: 2,
     title: "FootBooking",
     img: footbookingImage,
-    stack: "Next.js | Better Auth",
+    stack: "Vue.js | .NET | PHP",
     about: [
       "Football pitch reservation app built with Next.js, Shadcn UI, Prisma, and Better Auth.", 
     ],
@@ -57,9 +69,9 @@ export const projects = [
     id: 6,
     title: "AI Travel Planner",
     img: aiTravelerImage,
-    stack: "Next.js | OpenAI | Clerk",
+    stack: "Next.js | OpenAI | Python",
     about: [
-      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.", 
+      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Python.", 
     ],
     link: "https://travelplan-sm.vercel.app/",
     page: "/travel-planner",
