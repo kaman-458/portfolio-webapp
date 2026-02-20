@@ -147,50 +147,58 @@
 .about-certifications .certifications-list a.cert-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 110%;
+  gap: 8px;
+  font-size: 1rem;
   font-weight: 600;
-  color: #0066cc;
+  color: #1a1a1a;
+  letter-spacing: 0.02em;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
-  padding: 10px 16px;
-  border-radius: 8px;
-  border: 1px solid rgba(0, 102, 204, 0.5);
-  background: rgba(0, 102, 204, 0.06);
-  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(0, 0, 0, 0.4);
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 .about-certifications .certifications-list a.cert-link:hover,
 .about-certifications .certifications-list a.cert-link:focus-visible {
-  color: #004499;
-  background: rgba(0, 102, 204, 0.12);
-  border-color: #0066cc;
+  color: #000;
+  text-decoration-color: #000;
+  background: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transform: translateY(-1px);
-  outline: 2px solid #0066cc;
+  outline: 2px solid rgba(0, 0, 0, 0.25);
   outline-offset: 2px;
 }
 
 .about-certifications .certifications-list .cert-link-icon {
   flex-shrink: 0;
-  width: 1em;
-  height: 1em;
-  opacity: 0.9;
+  width: 0.95em;
+  height: 0.95em;
+  opacity: 0.7;
 }
 
 #dark .about-certifications .certifications-list a.cert-link {
-  color: #60a5fa;
-  text-decoration-color: #60a5fa;
-  border-color: rgba(96, 165, 250, 0.45);
-  background: rgba(96, 165, 250, 0.08);
+  color: #e8e8e8;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 #dark .about-certifications .certifications-list a.cert-link:hover,
 #dark .about-certifications .certifications-list a.cert-link:focus-visible {
-  color: #93c5fd;
-  background: rgba(96, 165, 250, 0.18);
-  border-color: #60a5fa;
-  outline-color: #60a5fa;
+  color: #fff;
+  text-decoration-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  outline-color: rgba(255, 255, 255, 0.35);
 }
 
 .contact {
