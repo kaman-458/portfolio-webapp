@@ -244,6 +244,12 @@ const About = () => {
                   <li>
                     <a className="cert-link" href="https://www.testdome.com/certificates/27743c67fa3f40bc852969fadfef9f76" target="_blank" rel="noopener noreferrer">Python <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
+                  <li>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/9716698b40e24b9c82c2f449edcfb9fc" target="_blank" rel="noopener noreferrer">.Net <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                  </li>
+                  <li>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/5243adcc2b9641049ccb94368350ac17" target="_blank" rel="noopener noreferrer">PHP <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                  </li>
                 </ul>
               </div>
             </motion.section>
