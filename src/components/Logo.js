@@ -17,10 +17,10 @@ const Logo = ({ className = "" }) => {
            M 10 0 A 18 14 0 0 1 46 28 A 18 14 0 0 1 10 0 Z
            M 10 28 A 18 14 0 0 1 46 56 A 18 14 0 0 1 10 28 Z"
       />
-      {/* A: triangle with crossbar */}
+      {/* A: single outline so crossbar is solid, no gap */}
       <path
         fill="currentColor"
-        d="M 58 56 L 76 0 L 94 56 L 88 56 L 88 32 L 64 32 L 64 56 Z"
+        d="M 58 56 L 76 0 L 64 32 L 88 32 L 94 56 Z"
       />
     </svg>
   );
