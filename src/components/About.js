@@ -122,7 +122,7 @@ const About = () => {
                     delay: 1,
                   }}
                 >
-                  I'm Kaman So, a Senior Software Engineer (Full-Stack) with 8+ years of experience designing, architecting, and deploying scalable distributed systems and cloud-native applications.
+                  I'm Basith Ahamad, a Senior Software Engineer (Full-Stack) with 8+ years of experience designing, architecting, and deploying scalable distributed systems and cloud-native applications.
                 </motion.h2>
                 <motion.h3
                   initial={{ opacity: 0, y: 30 }}
@@ -193,54 +193,20 @@ const About = () => {
                 <div className="experience-item">
                   <div className="experience-header">
                     <h3>Senior Software Engineer</h3>
-                    <h4>YAS MicroInsurance</h4>
-                    <span className="experience-date">2021 - 2023</span>
+                    <h4>Webxkey</h4>
                   </div>
                   <ul className="experience-details">
-                    <li>Architected and developed enterprise-grade microservices using NestJS, React, GraphQL, and Azure.</li>
-                    <li>Designed scalable RESTful and GraphQL APIs with authentication, authorization, and RBAC implementation.</li>
-                    <li>Migrated legacy infrastructure to Azure Kubernetes Service (AKS), improving deployment efficiency and scalability.</li>
-                    <li>Implemented CI/CD pipelines reducing deployment time by over 40%.</li>
-                    <li>Led development of RPA automation solutions and AI-driven recommendation system using OpenAI APIs.</li>
-                    <li>Conducted system performance tuning, database optimization, and monitoring setup.</li>
-                    <li>Mentored junior engineers, conducted technical design reviews, and established coding standards.</li>
-                  </ul>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-header">
-                    <h3>Software Engineer</h3>
-                    <h4>香港01 (HK01)</h4>
-                    <span className="experience-date">2019 - 2021</span>
-                  </div>
-                  <ul className="experience-details">
-                    <li>Developed high-traffic event platforms and PWAs using Vue.js, .NET, PHP, and Sitecore CMS.</li>
-                    <li>Designed scalable backend services and optimized SQL queries for performance-critical systems.</li>
-                    <li>Implemented caching strategies and improved page load performance significantly.</li>
-                    <li>Managed production deployments, monitoring, and incident resolution.</li>
-                    <li>Revamped legacy e-commerce platforms with modern architecture and improved maintainability.</li>
-                  </ul>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-header">
-                    <h3>Analyst Programmer</h3>
-                    <h4>ckly trading limited</h4>
-                    <span className="experience-date">2018 - 2019</span>
-                  </div>
-                  <ul className="experience-details">
-                    <li>Built insurance comparison platform and CMS from scratch using Angular, Node.js, and .NET.</li>
-                    <li>Designed real-time dashboards leveraging ELK stack for monitoring trading metrics.</li>
-                    <li>Implemented REST APIs with secure authentication and role-based access control.</li>
-                  </ul>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-header">
-                    <h3>Web Developer</h3>
-                    <h4>Virtual Gaming Technology</h4>
-                    <span className="experience-date">2017</span>
-                  </div>
-                  <ul className="experience-details">
-                    <li>Developed enterprise management systems and e-commerce platforms using Laravel/PHP.</li>
-                    <li>Designed modular CMS systems and delivered technical workshops to stakeholders.</li>
+                    <li>Built and shipped end-to-end product features, delivering both user-facing interfaces and backend systems that power core marketplace workflows.</li>
+                    <li>Designed systems responsible for matching demand with available resources, enabling efficient allocation and scheduling across large-scale operational networks.</li>
+                    <li>Developed internal tools and dashboards that allowed operations teams to monitor marketplace activity, manage orders, and resolve issues quickly.</li>
+                    <li>Played a key role in evolving the platform architecture to support high-volume marketplace activity, improving reliability and ensuring consistent system performance under heavy load.</li>
+                    <li>Took ownership of critical production services, proactively identifying system bottlenecks and implementing improvements that increased overall responsiveness by 40%.</li>
+                    <li>Improved data processing pipelines and data access patterns, reducing system latency by 30% and enabling faster operational decisions.</li>
+                    <li>Introduced intelligent automation features that helped reduce manual operational work, improving internal efficiency and reducing support workload by 25%.</li>
+                    <li>Built features that enhanced dynamic pricing, recommendations, and marketplace intelligence, improving both user experience and business outcomes.</li>
+                    <li>Implemented improved monitoring, alerting, and operational tooling that reduced incident recovery time by 35%.</li>
+                    <li>Worked closely with product and operations teams in a startup-style environment, rapidly shipping improvements and iterating based on real-world user feedback.</li>
+                    <li>Mentored engineers, contributed to architectural decisions, and helped establish scalable engineering practices across the team.</li>
                   </ul>
                 </div>
               </div>

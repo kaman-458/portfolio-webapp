@@ -32,16 +32,16 @@ const Footer = () => {
               <li>
                 <HiMail className="email-icon" />
                 <NavLink
-                  to="mailto:kamansonic@outlook.com"
+                  to="mailto:basith.ahamad@hotmail.com"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
                   onMouseLeave={() => cursorChangeHandler("")}
                   className={({ isActive }) => (isActive ? "special active" : "special")}
                   onClick={(e) => {
                     e.preventDefault();
-                    window.location.href = "mailto:kamansonic@outlook.com";
+                    window.location.href = "mailto:basith.ahamad@hotmail.com";
                   }}
                 >
-                  kamansonic@outlook.com
+                  basith.ahamad@hotmail.com
                 </NavLink>
               </li>
               <li>

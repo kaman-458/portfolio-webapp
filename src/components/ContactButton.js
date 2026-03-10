@@ -6,7 +6,7 @@ const ContactButton = () => {
   return (
     <>
       <a
-        href="mailto:kamansonic@outlook.com"
+        href="mailto:basith.ahamad@hotmail.com"
         target="_blank"
         rel="noreferrer"
         className="contact-link"
