@@ -6,8 +6,20 @@ import terraceshopImage from '../images/terrace.jpg';
 import connect4Image from '../images/connect-4.jpg';
 import grubmarketImage from '../images/grubmarket.png';
 import skileoImage from '../images/skileo.png';
+import finecoImage from '../images/fineco.png';
 
 export const projects = [
+  {
+    id: 36,
+    title: "FINECO",
+    img: finecoImage,
+    stack: "PHP | Laravel | CFD Trading | Multi-platform",
+    about: [
+      "Financial services and online banking platform. CFD trading with zero commissions, advanced tools, interactive charts, and automatic orders. Available on web, app, and FinecoX."
+    ],
+    link: "https://www.fineco.com/",
+    page: "/fineco",
+  },
   {
     id: 0,
     title: "GrubMarket",
