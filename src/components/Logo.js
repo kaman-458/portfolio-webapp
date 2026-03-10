@@ -10,19 +10,17 @@ const Logo = ({ className = "" }) => {
       style={{ width: "100%", height: "auto" }}
       aria-hidden="true"
     >
-      {/* K: vertical stem + diagonals, balanced proportions */}
+      {/* B: vertical stem + two lobes */}
       <path
         fill="currentColor"
         d="M 0 0 L 10 0 L 10 56 L 0 56 Z
-           M 10 28 L 46 0 L 46 8 L 10 36 Z
-           M 10 28 L 46 56 L 46 48 L 10 20 Z"
+           M 10 0 A 18 14 0 0 1 46 28 A 18 14 0 0 1 10 0 Z
+           M 10 28 A 18 14 0 0 1 46 56 A 18 14 0 0 1 10 28 Z"
       />
-      {/* O: clean circle, comfortable spacing from K */}
+      {/* A: triangle with crossbar */}
       <path
         fill="currentColor"
-        fillRule="evenodd"
-        d="M 98 28 A 22 22 0 0 1 54 28 A 22 22 0 0 1 98 28
-           M 90 28 A 14 14 0 0 1 62 28 A 14 14 0 0 1 90 28 Z"
+        d="M 58 56 L 76 0 L 94 56 L 88 56 L 88 32 L 64 32 L 64 56 Z"
       />
     </svg>
   );
