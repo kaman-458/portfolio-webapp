@@ -121,7 +121,7 @@ const HomeGallery = ({ projectRef }) => {
             onMouseEnter={() => cursorChangeHandler("hovered")}
             onMouseLeave={() => cursorChangeHandler("")}
           >
-            <a href="https://github.com/horodvladys" target="_blank" rel="noreferrer">
+            <a href="https://github.com/railway17" target="_blank" rel="noreferrer">
               <FaGithub size={50} className="icon-size" />
             </a>
           </li>
@@ -129,7 +129,7 @@ const HomeGallery = ({ projectRef }) => {
             onMouseEnter={() => cursorChangeHandler("hovered")}
             onMouseLeave={() => cursorChangeHandler("")}
           >
-            <a href="https://www.linkedin.com/in/kaman-so-80218515b/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/basith-ahamad-59591630a/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn size={50} className="icon-size" />
             </a>
           </li>

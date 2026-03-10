@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../css/Footer.css";
 import { MouseContext } from ".././context/MouseContext";
 import Logo from "./Logo";
-import { HiMail, HiPhone, HiStar, HiExternalLink } from "react-icons/hi";
+import { HiMail, HiStar, HiExternalLink } from "react-icons/hi";
 import { projects } from "../projects-data/projects-data";
 
 const Footer = () => {
@@ -42,21 +42,6 @@ const Footer = () => {
                   }}
                 >
                   basith.ahamad@hotmail.com
-                </NavLink>
-              </li>
-              <li>
-                <HiPhone className="phone-icon" />
-                <NavLink
-                  to="tel:+447874480270"
-                  onMouseEnter={() => cursorChangeHandler("hovered")}
-                  onMouseLeave={() => cursorChangeHandler("")}
-                  className={({ isActive }) => (isActive ? "special active" : "special")}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = "tel:+447874480270";
-                  }}
-                >
-                  +44 7874 480270
                 </NavLink>
               </li>
             </ul>

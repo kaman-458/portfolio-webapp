@@ -4,7 +4,6 @@ import footbookingImage from "../images/footbooking.jpg";
 import aiTravelerImage from '../images/aitravel.jpg';
 import terraceshopImage from '../images/terrace.jpg';
 import connect4Image from '../images/connect-4.jpg';
-import rockScissorsImage from '../images/rock-scissor.png'
 import grubmarketImage from '../images/grubmarket.png';
 import skileoImage from '../images/skileo.png';
 
@@ -110,16 +109,5 @@ export const projects = [
     ],
     link: "https://connection4-react.vercel.app/",
     page: "/connect-4",
-  },
-  {
-    id: 35,
-    title: "Rock-Paper-Scissors Game",
-    img: rockScissorsImage,
-    stack: "React | Styled Components",
-    about: [
-      "A fancy game playing Rock-Paper-Scissors."
-    ],
-    link: "https://rock-paper-scissors-play-xi.vercel.app/",
-    page: "/rock-paper-scissors",
   },
 ];
