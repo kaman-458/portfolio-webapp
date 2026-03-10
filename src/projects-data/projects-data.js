@@ -17,7 +17,7 @@ export const projects = [
     about: [
       "Financial services and online banking platform. CFD trading with zero commissions, advanced tools, interactive charts, and automatic orders. Available on web, app, and FinecoX."
     ],
-    link: "https://www.fineco.com/",
+    link: "https://it.finecobank.com/",
     page: "/fineco",
   },
   {
