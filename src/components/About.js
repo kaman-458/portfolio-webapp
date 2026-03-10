@@ -221,22 +221,28 @@ const About = () => {
               }}
             >
               <div className="wrapper">
-                <h5>Certifications</h5>
+                <h5>Certificates</h5>
                 <ul className="certifications-list">
                   <li>
-                    <a className="cert-link" href="https://www.testdome.com/certificates/3819be7fc3e04ecab73d8f4160515e4e" target="_blank" rel="noopener noreferrer">Python <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/ea181d20e8fc445e807f0f13f5d840e4" target="_blank" rel="noopener noreferrer">Javascript <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
                   <li>
-                    <a className="cert-link" href="https://www.testdome.com/certificates/9fd7c202f2234b5ab4344903a2ec75d7" target="_blank" rel="noopener noreferrer">Java <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/2898472275724131ad3866e12b56063f" target="_blank" rel="noopener noreferrer">TypeScript <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
                   <li>
-                    <a className="cert-link" href="https://www.testdome.com/certificates/e7e0fade34ba498eb85c446db14252c4" target="_blank" rel="noopener noreferrer">SQL <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/a70995f3fb6e464c96004ffa51d173c3" target="_blank" rel="noopener noreferrer">NodeJS <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
                   <li>
-                    <a className="cert-link" href="https://www.testdome.com/certificates/7986d5d3bc3a48f88e646716e0903c44" target="_blank" rel="noopener noreferrer">C# & .NET <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/5049d14aefc34b4d97705ea5204c5d6d" target="_blank" rel="noopener noreferrer">React <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
                   <li>
-                    <a className="cert-link" href="https://www.testdome.com/certificates/c0d7dbe1080b478385ed99bd2825455e" target="_blank" rel="noopener noreferrer">PHP <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/bce01cf43c34480aaf6abae2f42db535" target="_blank" rel="noopener noreferrer">React Native <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                  </li>
+                  <li>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/577cedb6f23d4c2490cd9dcabfd6cef1" target="_blank" rel="noopener noreferrer">Java <HiExternalLink className="cert-link-icon" aria-hidden /></a>
+                  </li>
+                  <li>
+                    <a className="cert-link" href="https://www.testdome.com/certificates/27743c67fa3f40bc852969fadfef9f76" target="_blank" rel="noopener noreferrer">Python <HiExternalLink className="cert-link-icon" aria-hidden /></a>
                   </li>
                 </ul>
               </div>

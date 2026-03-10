@@ -4,24 +4,24 @@ const Logo = ({ className = "" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 120 56"
+      viewBox="0 0 56 32"
       preserveAspectRatio="xMidYMid meet"
       className={className}
       style={{ width: "100%", height: "auto" }}
       aria-hidden="true"
     >
-      {/* B: vertical stem + two lobes */}
-      <path
+      <text
+        x="28"
+        y="22"
+        textAnchor="middle"
         fill="currentColor"
-        d="M 0 0 L 10 0 L 10 56 L 0 56 Z
-           M 10 0 A 18 14 0 0 1 46 28 A 18 14 0 0 1 10 0 Z
-           M 10 28 A 18 14 0 0 1 46 56 A 18 14 0 0 1 10 28 Z"
-      />
-      {/* A: single outline so crossbar is solid, no gap */}
-      <path
-        fill="currentColor"
-        d="M 58 56 L 76 0 L 64 32 L 88 32 L 94 56 Z"
-      />
+        fontFamily="system-ui, -apple-system, 'Segoe UI', sans-serif"
+        fontSize="24"
+        fontWeight="700"
+        letterSpacing="0.05em"
+      >
+        BA
+      </text>
     </svg>
   );
 };
