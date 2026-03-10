@@ -13,7 +13,7 @@ export const projects = [
     id: 36,
     title: "FINECO",
     img: finecoImage,
-    stack: "PHP | Laravel | CFD Trading | Multi-platform",
+    stack: "PHP | Laravel | Trading | Multi-platform",
     about: [
       "Financial services and online banking platform. CFD trading with zero commissions, advanced tools, interactive charts, and automatic orders. Available on web, app, and FinecoX."
     ],
