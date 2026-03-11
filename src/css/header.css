@@ -23,7 +23,8 @@
   cursor: pointer;
 }
 
-.header .logo svg {
+.header .logo svg,
+.header .logo img {
   width: 100%;
   height: 100%;
   transition: 0.3s all;
@@ -37,12 +38,14 @@
   margin: 0;
 }
 
-.header .menu .logo svg {
+.header .menu .logo svg,
+.header .menu .logo img {
   fill: var(--white);
   opacity: 0.35;
 }
 
-.header .menu .logo:hover svg {
+.header .menu .logo:hover svg,
+.header .menu .logo:hover img {
   opacity: 1;
 }
 
